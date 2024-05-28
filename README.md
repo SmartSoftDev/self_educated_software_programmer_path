@@ -5,17 +5,17 @@ NOTE: the diagrams are written using PlantUML
 
 # Entry Level
 
-![](./student_level.puml.png)
+1.  ![](./student_level.puml.png)
 
 # Junior Level
 
-![](./junior_level.puml.png)
-![](./basic_computer.puml.png)
-![](./network.puml.png)
-![](./linux.puml.png)
-![](./git.puml.png)
-![](./editors.puml.png)
-![](./dev_flow.puml.png)
-![](./docs.puml.png)
-![](./testing.puml)
-![](./devops.puml.png)
+1. ![](./junior_level.puml.png)
+1. ![](./basic_computer.puml.png)
+1. ![](./network.puml.png)
+1. ![](./linux.puml.png)
+1. ![](./git.puml.png)
+1. ![](./editors.puml.png)
+1. ![](./dev_flow.puml.png)
+1. ![](./docs.puml.png)
+1. ![](./testing.puml)
+1. ![](./devops.puml.png)
