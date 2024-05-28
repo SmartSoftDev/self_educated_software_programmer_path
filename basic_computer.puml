@@ -1,0 +1,16 @@
+@startmindmap
+title Self Educated Programmer: Junior level /basic_computer.puml
+
+* Basic Computer (see ./basic_computer.puml)
+** Processes
+** Threads
+** Sockets
+** HW
+*** RAM Memory
+*** CPU
+*** Storage
+**** SSD
+**** HDD
+**** USB-mass-Storage 
+
+@endmindmap

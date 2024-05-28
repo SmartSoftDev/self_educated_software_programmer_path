@@ -1,0 +1,45 @@
+@startmindmap
+title Self Educated Programmer: Junior level /network.puml
+
+* Basic computer networking
+** Media
+*** Ethernet
+*** Wifi
+*** 4G/5G
+** Protocols
+*** MAC
+**** Segmentation (LAN domains)
+*** IP
+**** Routing
+**** Subneting
+*** TCP
+**** Wireshark
+**** tcpdump
+*** TLS
+**** Root-of-trust
+**** Certificate management
+***** PKI
+**** Self-Signing
+*** [UDP]
+*** HTTP - Req/Response model (web)
+**** HTTPS
+***** Server and Client Authentication
+** HW
+*** NIC
+*** HUB (obsolete)
+*** Switch L2 (Bridge)
+*** Router
+** Cables
+*** Cat 5,6,7
+*** RJ-45
+*** Speeds
+**** 10 Mbps /100 Mbps
+**** 1 / 2,5 / 10 Gbps
+**** etc.
+*** Standards
+**** Wifi
+***** a/b/c/n/g 
+**** Ethernet
+***** 802.3	/ IEEE 802.3ae	
+
+@endmindmap

@@ -1,0 +1,53 @@
+@startmindmap
+title Self Educated Programmer: Junior level /linux.puml
+
+
+* Linux
+** Netwokring
+*** interfaces
+**** Ethernet
+**** Wifi
+**** virtual
+***** bridge
+*** get status
+**** list of intefaces and addresses `ip a`
+** sudo
+** configuration
+*** system wide configuration (/etc/)
+*** environment variables
+** Terminal (Shells)
+*** bash
+*** sh
+** user management
+*** user groups
+** File permissions
+*** user
+*** group
+*** other
+** kernel partitions
+*** /proc/
+*** /sys/
+*** tmpfs
+*** mounts
+**** overlays
+** systemd
+*** journalctl
+*** systemctl
+** File Descriptors
+** Kernel Space
+** User Space
+** List TCP connections
+*** netstat
+*** ss
+** Processes list
+*** ps -fax
+*** kill
+**** signals
+** typical RootFS structure
+** security
+** Remote access
+*** SSH
+*** Remote Desktop
+
+
+@endmindmap

@@ -2,5 +2,33 @@
 title Self Educated Programmer: Junior level
 
 * Student
+** Basic Computer (see ./basic_computer.puml)
+** Basic computer networking (see ./network.puml)
+** Linux (see ./linux.puml)
+** Git (see ./git.puml)
+*** Release mechanism
+*** Tags
+*** Rebasing
+*** Branching
+*** Merging
+*** Commit editing 
+*** Commit cherrypick
+** Editors
+*** VS Code
+*** PyCharm (python)
+** Development workflow (AGILE)
+*** Releasing Process
+*** Estimations
+**** StoryPoints Estimations
+**** MD Estimations
+**** Rough StoryPoints Estimations (SAFe)
+*** SCRUM
+**** typical meetings
+***** Daily
+***** Refinements
+***** Planings
+
+*** KANBAN
+*** SAFe
 
 @endmindmap

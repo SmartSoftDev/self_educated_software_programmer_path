@@ -1,0 +1,22 @@
+@startmindmap
+title Self Educated Programmer: Junior level /git.puml
+
+* Git (see ./git.puml)
+** Release mechanism
+** Tags
+** Conflicts
+** Rebasing
+** Branching
+*** forking point
+*** feature branch
+*** release branch
+*** good branch name
+** Merging
+** commits
+*** structure
+*** good title
+*** good content
+*** Commit editing 
+*** Commit cherrypick
+
+@endmindmap
