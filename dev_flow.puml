@@ -1,0 +1,37 @@
+@startmindmap
+title Self Educated Programmer: Junior level /dev_flow.puml
+
+
+* Development workflow
+** Releasing Process
+** Review Process
+*** 4-eye
+*** Commentsm
+*** conflict-resolution
+** Communication
+*** Efficient Remote work
+*** Chat abbreviations
+** Agile
+*** Estimations
+**** StoryPoints Estimations
+**** MD Estimations
+**** Rough StoryPoints Estimations (SAFe)
+*** SCRUM
+**** typical meetings
+***** Daily
+***** Refinements
+***** Planings
+*** KANBAN
+*** SAFe
+** Roles
+*** Product Owner
+*** Project Manager
+*** Product Manager
+*** Sales 
+**** Sales technical support
+*** Scrum Master
+*** Requirement Engineer
+*** QA Engineer
+**** Test Manager
+*** Business Owner
+@endmindmap

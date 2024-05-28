@@ -1,0 +1,13 @@
+@startmindmap
+title Self Educated Programmer: Junior level /devops.puml
+
+* DevOps
+** Pipelines
+*** AzureDevOps
+** Dev
+*** CI
+*** CD
+** Ops
+
+
+@endmindmap

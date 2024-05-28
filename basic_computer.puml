@@ -1,7 +1,7 @@
 @startmindmap
 title Self Educated Programmer: Junior level /basic_computer.puml
 
-* Basic Computer (see ./basic_computer.puml)
+* Basic Computer
 ** Processes
 ** Threads
 ** Sockets

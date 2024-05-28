@@ -1,0 +1,50 @@
+@startmindmap
+title Self Educated Programmer: Junior level /docs.puml
+
+* Testing
+** types
+*** unit
+*** integration
+*** smoke
+*** regression
+*** e2e
+*** differencial / partial
+*** re-testing
+*** blackbox / whitebox
+*** manual / automatic / semi-automatic
+**** interactive
+*** monkey
+*** acceptance
+**** factory
+**** site
+*** performance
+*** security 
+*** functional / non-functional
+*** compatibility 
+*** resilience 
+*** load
+*** beta / alfa
+*** A/B 
+*** stress
+*** scalability
+*** sanity
+*** exploratory
+*** system
+*** usability
+*** adhoc
+*** user
+*** fesability
+*** hardware
+*** software
+*** gated
+*** accesibility
+*** incremental
+*** documentation
+*** requirements
+*** official
+*** continuous
+
+
+
+
+@endmindmap

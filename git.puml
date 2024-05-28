@@ -1,7 +1,7 @@
 @startmindmap
 title Self Educated Programmer: Junior level /git.puml
 
-* Git (see ./git.puml)
+* Git
 ** Release mechanism
 ** Tags
 ** Conflicts

@@ -1,0 +1,9 @@
+@startmindmap
+title Self Educated Programmer: Junior level /docs.puml
+
+* Documentation
+** WYSIWYG
+*** *.md
+*** *.adoc
+
+@endmindmap

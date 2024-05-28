@@ -1,0 +1,16 @@
+@startmindmap
+title Self Educated Programmer: Junior level /editors.puml
+
+* Editors
+** VS Code
+** PyCharm (python)
+** vi / vim
+** Diff-tools
+*** meld
+*** kdiff3
+** Quick Typing 
+*** Blind mode
+*** Dictation
+*** Keyboard shortcuts (avoid mouse if possible)
+
+@endmindmap
