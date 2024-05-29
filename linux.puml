@@ -16,8 +16,32 @@ title Self Educated Programmer: Junior level /linux.puml
 *** system wide configuration (/etc/)
 *** environment variables
 ** Terminal (Shells)
+*** commands
+**** navigation
+***** ls / ll / find / tree
+***** cd
+***** pushd / popd
+**** pipe
+**** file permissions
+***** chmod
+***** chown
+**** List TCP connections
+***** netstat
+***** ss
+**** Processes list
+***** ps -fax
+***** kill
+****** signals
 *** bash
+**** aliases
+**** language basics
+***** if
+***** for / while
+***** functions
+***** variables
 *** sh
+**** difference with other interpreters
+**** busybox
 ** user management
 *** user groups
 ** File permissions
@@ -30,19 +54,16 @@ title Self Educated Programmer: Junior level /linux.puml
 *** tmpfs
 *** mounts
 **** overlays
+**** softlinks / hardlinks
 ** systemd
 *** journalctl
 *** systemctl
-** File Descriptors
 ** Kernel Space
 ** User Space
-** List TCP connections
-*** netstat
-*** ss
-** Processes list
-*** ps -fax
-*** kill
-**** signals
+*** stdout, stderr, stdin
+*** Posix API
+**** File Descriptors
+**** Socket API
 ** typical RootFS structure
 ** security
 ** Remote access
