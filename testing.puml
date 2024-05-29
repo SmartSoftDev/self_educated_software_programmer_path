@@ -1,5 +1,5 @@
 @startmindmap
-title Self Educated Programmer: Junior level /docs.puml
+title Self Educated Programmer: Junior level /testing.puml
 
 * Testing
 ** types
@@ -14,27 +14,32 @@ title Self Educated Programmer: Junior level /docs.puml
 
 *** how big
 **** smoke
-**** regression
-**** differencial / partial
-**** re-test
-**** incremental
 **** exploratory
-**** continuous
 **** adhoc
+**** differencial / partial
+**** incremental
+**** continuous
+**** re-test
+**** regression
 
 *** by scope
 **** compatibility 
 **** acceptance
-**** factory
-**** site
+***** factory
+***** site
 **** gated
 **** (un-) official
 **** blackbox / whitebox
+**** monkey / random
+**** fuzz testing
+**** Qualification / Certification
+**** Dynamic / Static
+
 
 *** by means
-**** manual / automatic / semi-automatic
-**** interactive
-**** monkey
+**** manual / automatic 
+**** semi-automatic
+**** interactive / headless
 
 *** by functionality
 **** performance
@@ -59,13 +64,19 @@ title Self Educated Programmer: Junior level /docs.puml
 
 ** Definitions
 *** Test-Case
+*** Test-step
+*** Expected-result
+*** Test-Suite
 *** Test-Run
+*** Test-strategy
+**** Quality plan 
+**** Guide 
 *** Test-Plan / Loop
 *** Test-Management
 *** Test-Report
+*** Anomaly-Report
 *** Test-Traceability (Matrix)
 
-
-
-
+** Testing Tools
+*** ADO
 @endmindmap
