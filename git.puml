@@ -3,6 +3,7 @@ title Self Educated Programmer: Junior level /git.puml
 
 * Git
 ** Release mechanism
+*** flow
 ** Tags
 ** Conflicts
 ** Rebasing
@@ -12,11 +13,13 @@ title Self Educated Programmer: Junior level /git.puml
 *** release branch
 *** good branch name
 ** Merging
-** commits
+** Commits
 *** structure
 *** good title
 *** good content
 *** Commit editing 
 *** Commit cherrypick
-
+** submodules
+*** init / update / add / remove
+*** hierarchical linkage use
 @endmindmap

@@ -1,0 +1,20 @@
+@startmindmap
+title Self Educated Programmer: Junior level ./virtualization.puml
+
+* Virtualization
+** Docker
+*** Image
+**** Building
+**** layers
+*** Container
+**** mounts
+**** networking
+*** Registry
+*** Compose
+*** Commands
+**** build
+**** pull
+**** run 
+**** exec
+** Kubernetes
+@endmindmap

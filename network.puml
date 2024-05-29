@@ -7,6 +7,19 @@ title Self Educated Programmer: Junior level /network.puml
 *** Wifi
 *** 4G/5G
 ** Protocols
+*** Principles
+**** Stream
+**** Error Detection / Correction
+**** Path
+***** Star
+***** Mesh
+***** Multi-path
+***** Checksums
+**** Load-ballance
+**** Agregation / bonding
+**** Mirroring
+**** Proxy / Intercept
+***** reverse
 *** MAC
 **** Segmentation (LAN domains)
 *** IP
@@ -29,17 +42,19 @@ title Self Educated Programmer: Junior level /network.puml
 *** HUB (obsolete)
 *** Switch L2 (Bridge)
 *** Router
-** Cables
-*** Cat 5,6,7
-*** RJ-45
-*** Speeds
-**** 10 Mbps /100 Mbps
-**** 1 / 2,5 / 10 Gbps
-**** etc.
-*** Standards
-**** Wifi
-***** a/b/c/n/g 
-**** Ethernet
-***** 802.3	/ IEEE 802.3ae	
+*** Reapeter
+*** Media-Converter
+*** Cables
+**** Cat 5,6,7
+**** RJ-45
+**** Speeds
+***** 10 Mbps /100 Mbps
+***** 1 / 2,5 / 10 Gbps
+***** etc.
+**** Standards
+***** Wifi
+****** a/b/c/n/g 
+***** Ethernet
+****** 802.3	/ IEEE 802.3ae	
 
 @endmindmap

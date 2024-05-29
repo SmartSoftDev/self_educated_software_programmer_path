@@ -9,6 +9,7 @@ title Self Educated Programmer: Junior level
 ** Editors (see ./editors.puml)
 ** Development workflow (see ./dev_flow.puml)
 ** Documentation (see ./docs.puml)
+** Virtualization / Docker (see ./virtualization.puml)
 ** Testing workflow (see ./testing.puml)
 ** DevOps workflow (see ./devops.puml)
 

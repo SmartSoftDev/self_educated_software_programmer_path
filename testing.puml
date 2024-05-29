@@ -3,46 +3,67 @@ title Self Educated Programmer: Junior level /docs.puml
 
 * Testing
 ** types
-*** unit
-*** integration
-*** smoke
-*** regression
-*** e2e
-*** differencial / partial
-*** re-testing
-*** blackbox / whitebox
-*** manual / automatic / semi-automatic
-**** interactive
-*** monkey
-*** acceptance
+
+*** by components
+**** unit
+**** integration
+**** system
+**** e2e
+**** hardware
+**** software
+
+*** how big
+**** smoke
+**** regression
+**** differencial / partial
+**** re-test
+**** incremental
+**** exploratory
+**** continuous
+**** adhoc
+
+*** by scope
+**** compatibility 
+**** acceptance
 **** factory
 **** site
-*** performance
-*** security 
-*** functional / non-functional
-*** compatibility 
-*** resilience 
-*** load
-*** beta / alfa
-*** A/B 
-*** stress
-*** scalability
-*** sanity
-*** exploratory
-*** system
-*** usability
-*** adhoc
-*** user
-*** fesability
-*** hardware
-*** software
-*** gated
-*** accesibility
-*** incremental
-*** documentation
-*** requirements
-*** official
-*** continuous
+**** gated
+**** (un-) official
+**** blackbox / whitebox
+
+*** by means
+**** manual / automatic / semi-automatic
+**** interactive
+**** monkey
+
+*** by functionality
+**** performance
+**** security 
+**** functional / non-functional
+**** resilience 
+**** load
+**** stress
+**** scalability
+**** sanity
+**** usability
+**** fesability
+**** documentation
+**** accesibility
+**** requirements
+
+*** by type of audience
+**** beta / alfa
+**** A/B 
+**** user
+**** developer
+
+** Definitions
+*** Test-Case
+*** Test-Run
+*** Test-Plan / Loop
+*** Test-Management
+*** Test-Report
+*** Test-Traceability (Matrix)
 
 
 

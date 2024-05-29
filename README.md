@@ -17,5 +17,6 @@ NOTE: the diagrams are written using PlantUML
 1. ![](./editors.puml.png)
 1. ![](./dev_flow.puml.png)
 1. ![](./docs.puml.png)
+1. ![](./virtualization.puml.png)
 1. ![](./testing.puml)
 1. ![](./devops.puml.png)
