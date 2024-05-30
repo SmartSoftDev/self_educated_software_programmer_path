@@ -1,0 +1,27 @@
+@startmindmap
+title Self Educated Programmer: Junior level /basic_dev_organigram.puml
+
+
+* Basic Organigram for SW development
+** Roles
+*** Development
+**** Developer
+**** QA Engineer
+***** Test Manager
+**** Scrum Master
+**** Product Owner
+**** Requirement Engineer
+**** Architect
+*** Management
+**** Project Manager
+**** Product Manager
+**** Business Owner
+**** Development Director / CTO
+*** Operations 
+**** Technical Support
+**** DevOps
+*** Sales 
+**** Sales technical support
+**** Acount Manager
+*** HR
+@endmindmap

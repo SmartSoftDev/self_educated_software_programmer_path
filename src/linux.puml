@@ -11,6 +11,9 @@ title Self Educated Programmer: Junior level /linux.puml
 ***** bridge
 *** get status
 **** list of intefaces and addresses `ip a`
+*** Network Manager
+**** nmcli
+*** WPAsuplicant for Wifi
 ** sudo
 ** configuration
 *** system wide configuration (/etc/)
@@ -25,9 +28,9 @@ title Self Educated Programmer: Junior level /linux.puml
 **** file permissions
 ***** chmod
 ***** chown
-**** List TCP connections
-***** netstat
-***** ss
+**** TCP/TLS connections
+***** ss / netstat
+***** nc
 **** Processes list
 ***** ps -fax
 ***** kill

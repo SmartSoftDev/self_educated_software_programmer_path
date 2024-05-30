@@ -16,6 +16,7 @@ NOTE: the diagrams are written using PlantUML
 1. ![](./src/git.puml.png)
 1. ![](./src/editors.puml.png)
 1. ![](./src/dev_flow.puml.png)
+1. ![](./src/basic_dev_organigram.puml.png)
 1. ![](./src/docs.puml.png)
 1. ![](./src/virtualization.puml.png)
 1. ![](./src/testing.puml.png)

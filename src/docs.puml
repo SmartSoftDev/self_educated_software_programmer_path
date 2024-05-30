@@ -6,5 +6,9 @@ title Self Educated Programmer: Junior level /docs.puml
 *** *.md
 *** PlantUML
 *** *.adoc
+** C/C++
+*** doxygen
+** Python
+*** sphinx / readthedocs 
 
 @endmindmap
