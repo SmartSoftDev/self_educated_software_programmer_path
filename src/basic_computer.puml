@@ -2,6 +2,10 @@
 title Self Educated Programmer: Junior level /basic_computer.puml
 
 * Basic Computer
+** data formats
+*** binary
+*** ascii
+**** encodings
 ** Processes
 ** Threads
 ** Sockets

@@ -28,9 +28,14 @@ title Self Educated Programmer: Junior level /linux.puml
 **** file permissions
 ***** chmod
 ***** chown
-**** TCP/TLS connections
+**** TCP connections
 ***** ss / netstat
 ***** nc
+**** TLS generation/inspection
+***** openssl
+****** cert/connection inspection
+****** cert generation/creation
+****** cert siging (self, csr)
 **** Processes list
 ***** ps -fax
 ***** kill
