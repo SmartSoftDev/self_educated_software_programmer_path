@@ -22,19 +22,26 @@ title Self Educated Programmer: Junior level /testing.puml
 **** re-test
 **** regression
 
-*** by scope
+*** by scope 
 **** compatibility 
 **** acceptance
 ***** factory
 ***** site
 **** gated
 **** (un-) official
-**** blackbox / whitebox
 **** monkey / random
 **** fuzz testing
 **** Qualification / Certification
 **** Dynamic / Static
 
+*** by TC design technique
+**** Model-Based testing
+**** Risk-based testing
+**** blackbox / whitebox
+**** requirements based testing
+**** experience-based testing
+**** Test-Driven Development
+***** Design driven testing
 
 *** by means
 **** manual / automatic 

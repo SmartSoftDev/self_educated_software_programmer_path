@@ -18,28 +18,8 @@ title Self Educated Programmer: Junior level /linux.puml
 ** configuration
 *** system wide configuration (/etc/)
 *** environment variables
-** Terminal (Shells)
-*** commands
-**** navigation
-***** ls / ll / find / tree
-***** cd
-***** pushd / popd
-**** pipe
-**** file permissions
-***** chmod
-***** chown
-**** TCP connections
-***** ss / netstat
-***** nc
-**** TLS generation/inspection
-***** openssl
-****** cert/connection inspection
-****** cert generation/creation
-****** cert siging (self, csr)
-**** Processes list
-***** ps -fax
-***** kill
-****** signals
+** Terminal (Shells) 
+*** commands (see ./linux_terminal_commands.puml)
 *** bash
 **** aliases
 **** language basics
@@ -79,6 +59,5 @@ title Self Educated Programmer: Junior level /linux.puml
 *** Remote Desktop
 **** VNC
 **** Teamviewer
-
 
 @endmindmap

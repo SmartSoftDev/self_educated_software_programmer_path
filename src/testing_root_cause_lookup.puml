@@ -1,0 +1,56 @@
+@startmindmap
+title Self Educated Programmer: Junior level /root_cause_analisys.puml
+
+* General rules of debugging
+** Clearly separate troubleshooting activities with debugging activities
+** Asume the product is not to blame until proven otherwise
+** Do not create BUG/Anomaly tickets until there is strong confidence that the product does something wrong. 
+*** Have arguments why this issue is a Product BUG/Anomaly.
+
+* Issues Root Cause analisys (Best Practices)
+** Formulate / Describe the exact problem
+*** describe the observed results with plenty of details. 
+*** Expain what is the difference of observed behavior compared to expected behavior
+*** if observed behavior has room of interpretation, find and citate or link sources (reqs, user manual, etc.) that describe the expected behavior
+** Investigate meticulously the state of the product after the issue appeared
+*** which components are affected, which components of the product are still working corectly
+*** what are the effects of the issue
+**** which componets will not be able to function properly
+*** where the traces of bad behavior should be seen (which log files, on which sides, )
+*** can the product recover from that issue, is it a temporary or pemanent disturbance
+*** be very specific if the status statements are facts (with arguments) or an assuptions
+**** There should be more facts then assuptions, improves credibility of the investigation/analisys
+*** how can the product be recovered
+**** partially of fully
+*** Describe observed facts and assuptions
+**** Clearly separate observed-facts from issue description
+**** Discover/document the chain of events happening in the product that lead to the issue.
+***** Check validity of each event happening 
+***** Identify the one event involved in the chain that led to the issue
+***** Try to get a chain of events in the case the issue does not appear and compare them with the events that led to the issue
+** Analize possible causes
+*** clearly separate analisys statemets from issue description or observed facts.
+*** Use "Deductive logic" principles to make step-by-step conclusions. 
+**** Issue description and observed facts are used as starting statements (premises)
+**** The principles of deductive logic ensure that if a set of premises are true, then a set of conclusion must also be true.
+***** try to formulate conclusions in a standard format. For ex:
+***** GIVEN Premise A and B THEREFORE Conclusion A and B ARE TRUE. 
+***** Use less stronger conclusions if there is no certanty. for EX:
+***** GIVEN Premis A and C PROBABLY Conclusion B and D ARE TRUE.
+***** Strictly true conclusions (THEREFORE) can be used as premises for other statements 
+***** But assumptions based conclusions (PROBABLY) should not be used as premises for further statements.
+*** Use "Inductive logic" to produce verifiable hypotheses (predictions)
+**** Genaralization - Drawing a broad conclusion from a limited set of observations
+**** Statistical inference - draw conclusion based on statisitical data / observations
+**** Cause-efect inference - draw conclusions based on corellations
+**** Similarity inference - draw conclusions based on similatiry of the observations with other cases in the past
+*** Methods
+**** to reduce it to absurd/contradiction
+***** GIVEN the BackEnd received a valid input but still returned an error THEREFORE the bug is in the BackEnd.
+***** GIVEN the BackEnd must answer with error or ok on each request and there was no answer received THEREFORE the bug is in the BackEnd.
+**** Eliminative approach. For ex:
+***** use "Bisection Method" at each step of evaluation try to eliminate half of the areas where the bug might be
+***** use "Divide and Conquer" for eliminating the suspects
+***** GIVEN All components apart from BackEnd did work correctly THEREFORE the bug is in BackEnd
+
+@endmindmap

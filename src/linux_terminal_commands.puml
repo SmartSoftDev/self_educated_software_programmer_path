@@ -1,0 +1,28 @@
+@startmindmap
+title Self Educated Programmer: Junior level /linux.puml
+
+* Terminal Basic Commands
+** navigation
+*** ls / ll / find / tree
+*** cd
+*** pushd / popd
+** pipe
+** file permissions
+*** chmod
+*** chown
+** TCP connections
+*** ss / netstat
+*** nc
+** TLS generation/inspection
+*** openssl
+**** cert/connection inspection
+**** cert generation/creation
+**** cert siging (self, csr)
+** Processes list
+*** ps -fax
+*** kill
+**** signals
+***** HUP, INT, KILL, STOP, CONT
+
+
+@endmindmap
