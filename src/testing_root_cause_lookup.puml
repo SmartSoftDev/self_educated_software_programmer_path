@@ -6,6 +6,7 @@ title Self Educated Programmer: Junior level /root_cause_analisys.puml
 ** Asume the product is not to blame until proven otherwise
 ** Do not create BUG/Anomaly tickets until there is strong confidence that the product does something wrong. 
 *** Have arguments why this issue is a Product BUG/Anomaly.
+** Get used to read and understand logs from different components
 
 * Issues Root Cause analisys (Best Practices)
 ** Formulate / Describe the exact problem
