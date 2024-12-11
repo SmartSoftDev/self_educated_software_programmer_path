@@ -3,48 +3,48 @@ title Self Educated Programmer: Junior level /root_cause_analisys.puml
 
 * General rules of debugging
 ** Clearly separate troubleshooting activities with debugging activities
-** Asume the product is not to blame until proven otherwise
+** Assume the product is not to blame until proven otherwise
 ** Do not create BUG/Anomaly tickets until there is strong confidence that the product does something wrong. 
 *** Have arguments why this issue is a Product BUG/Anomaly.
 ** Get used to read and understand logs from different components
 
-* Issues Root Cause analisys (Best Practices)
+* Issues Root Cause analysis (Best Practices)
 ** Formulate / Describe the exact problem
 *** describe the observed results with plenty of details. 
-*** Expain what is the difference of observed behavior compared to expected behavior
+*** Explain what is the difference of observed behavior compared to expected behavior
 *** if observed behavior has room of interpretation, find and citate or link sources (reqs, user manual, etc.) that describe the expected behavior
 ** Investigate meticulously the state of the product after the issue appeared
-*** which components are affected, which components of the product are still working corectly
+*** which components are affected, which components of the product are still working correctly
 *** what are the effects of the issue
-**** which componets will not be able to function properly
+**** which components will not be able to function properly
 *** where the traces of bad behavior should be seen (which log files, on which sides, )
-*** can the product recover from that issue, is it a temporary or pemanent disturbance
-*** be very specific if the status statements are facts (with arguments) or an assuptions
-**** There should be more facts then assuptions, improves credibility of the investigation/analisys
+*** can the product recover from that issue, is it a temporary or permanent disturbance
+*** be very specific if the status statements are facts (with arguments) or an assumptions
+**** There should be more facts then assumptions, improves credibility of the investigation/analysis
 *** how can the product be recovered
 **** partially of fully
-*** Describe observed facts and assuptions
+*** Describe observed facts and assumptions
 **** Clearly separate observed-facts from issue description
 **** Discover/document the chain of events happening in the product that lead to the issue.
 ***** Check validity of each event happening 
 ***** Identify the one event involved in the chain that led to the issue
 ***** Try to get a chain of events in the case the issue does not appear and compare them with the events that led to the issue
-** Analize possible causes
-*** clearly separate analisys statemets from issue description or observed facts.
+** Analyze possible causes
+*** clearly separate analysis statements from issue description or observed facts.
 *** Use "Deductive logic" principles to make step-by-step conclusions. 
 **** Issue description and observed facts are used as starting statements (premises)
 **** The principles of deductive logic ensure that if a set of premises are true, then a set of conclusion must also be true.
 ***** try to formulate conclusions in a standard format. For ex:
 ***** GIVEN Premise A and B THEREFORE Conclusion A and B ARE TRUE. 
-***** Use less stronger conclusions if there is no certanty. for EX:
-***** GIVEN Premis A and C PROBABLY Conclusion B and D ARE TRUE.
+***** Use less stronger conclusions if there is no certainty. for EX:
+***** GIVEN Premise A and C PROBABLY Conclusion B and D ARE TRUE.
 ***** Strictly true conclusions (THEREFORE) can be used as premises for other statements 
 ***** But assumptions based conclusions (PROBABLY) should not be used as premises for further statements.
 *** Use "Inductive logic" to produce verifiable hypotheses (predictions)
-**** Genaralization - Drawing a broad conclusion from a limited set of observations
-**** Statistical inference - draw conclusion based on statisitical data / observations
-**** Cause-efect inference - draw conclusions based on corellations
-**** Similarity inference - draw conclusions based on similatiry of the observations with other cases in the past
+**** Generalization - Drawing a broad conclusion from a limited set of observations
+**** Statistical inference - draw conclusion based on statistical data / observations
+**** Cause-effect inference - draw conclusions based on correlations
+**** Similarity inference - draw conclusions based on similarity of the observations with other cases in the past
 *** Methods
 **** to reduce it to absurd/contradiction
 ***** GIVEN the BackEnd received a valid input but still returned an error THEREFORE the bug is in the BackEnd.

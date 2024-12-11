@@ -3,7 +3,7 @@ title Self Educated Programmer: Junior level /linux.puml
 
 
 * Linux
-** Netwokring
+** Networking
 *** interfaces
 **** Ethernet
 **** Wifi
@@ -13,7 +13,7 @@ title Self Educated Programmer: Junior level /linux.puml
 **** list of intefaces and addresses `ip a`
 *** Network Manager
 **** nmcli
-*** WPAsuplicant for Wifi
+*** WPA supplicant for Wifi
 ** sudo
 ** configuration
 *** system wide configuration (/etc/)
@@ -39,7 +39,7 @@ title Self Educated Programmer: Junior level /linux.puml
 ** kernel partitions
 *** /proc/
 *** /sys/
-*** tmpfs
+*** tmp fs
 *** mounts
 **** overlays
 **** softlinks / hardlinks

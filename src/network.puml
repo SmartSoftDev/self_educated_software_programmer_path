@@ -16,7 +16,7 @@ title Self Educated Programmer: Junior level /network.puml
 ***** Multi-path
 ***** Checksums
 **** Load-ballance
-**** Agregation / bonding
+**** Aggregation / bonding
 **** Mirroring
 **** Proxy / Intercept
 ***** reverse
@@ -42,7 +42,7 @@ title Self Educated Programmer: Junior level /network.puml
 *** HUB (obsolete)
 *** Switch L2 (Bridge)
 *** Router
-*** Reapeter
+*** Repeater
 *** Media-Converter
 *** Cables
 **** Cat 5,6,7

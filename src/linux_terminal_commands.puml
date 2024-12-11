@@ -17,7 +17,7 @@ title Self Educated Programmer: Junior level /linux.puml
 *** openssl
 **** cert/connection inspection
 **** cert generation/creation
-**** cert siging (self, csr)
+**** cert signing (self, csr)
 ** Processes list
 *** ps -fax
 *** kill
