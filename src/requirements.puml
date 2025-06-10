@@ -1,0 +1,24 @@
+@startmindmap
+title Self Educated Programmer: Junior level /requirements.puml
+
+* Requirements
+** types
+
+*** User (UR)
+*** System (SR)
+*** Product (PR)
+*** Non-Functional (How well it should do the job) (NFR)
+*** Component (CR)
+*** Software (SWR)
+*** Hardware (HWR)
+
+** Best practices
+*** exploratory
+*** adhoc
+*** differencial / partial
+*** incremental
+*** continuous
+*** re-test
+*** regression
+
+@endmindmap

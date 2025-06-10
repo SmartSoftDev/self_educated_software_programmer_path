@@ -22,4 +22,5 @@ NOTE: the diagrams are written using PlantUML
 1. ![](./src/virtualization.puml.png)
 1. ![](./src/testing.puml.png)
 1. ![](./src/testing_root_cause_lookup.puml.png)
+1. ![](./src/requirements.puml.png)
 1. ![](./src/devops.puml.png)

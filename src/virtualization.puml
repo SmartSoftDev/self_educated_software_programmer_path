@@ -12,9 +12,16 @@ title Self Educated Programmer: Junior level ./virtualization.puml
 *** Registry
 *** Compose
 *** Commands
+**** login
 **** build
 **** pull
 **** run 
 **** exec
 ** Kubernetes
+*** installation
+*** resources
+**** pods
+**** networking
+*** kubectl CLI
+**** get {api-resources}
 @endmindmap

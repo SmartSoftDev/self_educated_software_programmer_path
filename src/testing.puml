@@ -16,7 +16,7 @@ title Self Educated Programmer: Junior level /testing.puml
 **** smoke
 **** exploratory
 **** adhoc
-**** differencial / partial
+**** differential / partial
 **** incremental
 **** continuous
 **** re-test
@@ -37,7 +37,7 @@ title Self Educated Programmer: Junior level /testing.puml
 *** by TC design technique
 **** Model-Based testing
 **** Risk-based testing
-**** blackbox / whitebox
+**** black-box / white-box
 **** requirements based testing
 **** experience-based testing
 **** Test-Driven Development
