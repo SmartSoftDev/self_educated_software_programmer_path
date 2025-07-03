@@ -19,6 +19,10 @@ title Self Educated Programmer: Junior level /git.puml
 *** good content
 *** Commit editing 
 *** Commit cherrypick
+** working with stash
+*** stash 
+*** stash pop
+*** stash list
 ** submodules
 *** init / update / add / remove
 *** hierarchical linkage use
